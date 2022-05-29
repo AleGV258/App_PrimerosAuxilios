@@ -13,13 +13,13 @@ import {
 
 const InfoPage = () => {
   const {id} = useParams()
-  let emergenciasBody;
   const emergencyId = parseInt(id, 10)
   const [emergencias, setEmergencia] = useState('');
   
   console.log(emergencyId)
   useEffect(() => {
     let fetchData = async() => {
+      let emergenciasBody;
       let data = await fetch(`https://backendservicioscloud.azurewebsites.net/Emergencia/${id}`);
       let final = await data.json();
 
