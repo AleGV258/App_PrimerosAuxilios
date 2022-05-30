@@ -23,4 +23,6 @@ Para ejecutarlo, se debe descargar NodeJS en su versión 14 o superior: https://
 
 4. Ir a http://localhost:3000/.
 
-El API se puede consultar en el siguiente recurso: https://backendservicioscloud.azurewebsites.net/ 📱
+El API se puede consultar en el siguiente recurso: 📱
+- https://backendservicioscloud.azurewebsites.net/
+- https://api-primeros-auxilios.herokuapp.com/
